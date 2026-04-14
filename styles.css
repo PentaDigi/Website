@@ -378,6 +378,8 @@ img {
 .portfolio {
   padding: 4rem 1rem;
   background: #f9fafb;
+  justify-content: center;
+  display: flex;
 }
 
 .portfolio-grid {
@@ -393,23 +395,6 @@ img {
   transition: transform 0.3s;
   text-align: center;
     padding: 1rem;
-}
-
-.preview-wrapper {
-  width: 100%;
-  height: 220px; /* FIX tinggi biar proporsional */
-  overflow: hidden;
-  border-radius: 0.75rem;
-  margin-bottom: 1rem;
-  background: #eee;
-}
-
-.preview-wrapper iframe {
-  width: 1200px;
-  height: 800px;
-  transform: scale(0.22); /* lebih kecil biar masuk */
-  transform-origin: top left;
-  border: none;
 }
 
 .portfolio-card:hover {
